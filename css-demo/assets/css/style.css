@@ -25,7 +25,28 @@ img{
   margin:40px auto;
 }
 
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border: solid 3px #c0c0c0;
+  padding:2px;
+  border-radius:5px;
+}
 
+.img-left{
+  float:left;
+  margin:10px 20px 10px 0;
+  border: solid 3px #c0c0c0;
+  padding:2px;
+  border-radius:5px;
+}
+
+.img-center{
+  padding:5px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.4);
+  display:block;
+  margin:20px auto;
+}
 
 /*  --------------- Global Styles -----------------  */
 
@@ -151,6 +172,88 @@ article.post a{
 article.post a:hover{
   text-decoration: none;
 }
+
+#pratice{
+  line-height:1p;
+}
+
+#practice a{
+  color: #3b638b;
+}
+
+#practice a:hover{
+  text-decoration:none;
+}
+
+#practice h2{
+  color:#3b638b;
+  border-bottom:2px solid #c0c0c0;
+}
+
+#practice h3{
+  border-left:5px solid #3b638b;
+  padding-left:10px;
+}
+
+table{
+  width:100%;
+  border:2px solid #3b638b;
+  margin:20px 0;
+  border-collapse:collapse;
+}
+
+table caption{
+  font-weight:bold;
+  margin:10px;
+}
+
+table tr:nth-child(even){
+  background-color: rgba(0,0,0,.1);
+}
+
+table th{
+  background-color:#172635;
+  color:white;
+  padding:10px;
+}
+
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+  
+}
+
+table td:nth-child(n+2){
+  text-align:center;
+}
+
+ol{
+  list-style-type: lower-roman;
+}
+
+li{
+
+}
+
+ul li > ul{
+  list-style-type:square;
+  color:red;
+}
+
+dl{}
+
+dt{
+  font-weight: bold;
+}
+
+dd{
+  margin:0;
+}
+
+dd + dt{
+  margin-top:20px;
+}
+
 
 aside[role="complementary"]{
   background-color: #172635;
