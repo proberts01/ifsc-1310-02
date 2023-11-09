@@ -56,30 +56,66 @@ body{
   text-align: center;
   line-height: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  transition: 0.3s;
+  border: 1px solid transparent;
 }
 #listItem:hover{
-  background-color: rgba(128, 192, 128, 0.5);
+  background-color: rgba(24, 24, 24, 0.5);
+  border-style:solid;
+  border-width: 1px;
+  border-color:rgba(47, 85, 116, 0.8);
+  padding:auto;
 }
 
 #navList1 img{
   width:350px;
   height: 350px;
   margin:auto;
+  margin-left: 10px;
+  border-style: solid;
+  border-color:#74B3CE;
 }
 
 #navList1 p{
-  background-color: rgba(23,42,58,0.8);
+  background-color: rgba(23,42,58,0.75);
   width:300px;
   margin-left: 20px;
   margin-top:10px;
-  line-height: 30px; 
+  line-height: 40px; 
   text-align: center;
   padding:10px;
 }
 #name{
   font-weight:bold;
   color:#95cde6;
-  font-size:20px;
-    background-color: transparent; /* Remove any background color styles */
+  font-size:35px;
+}
+
+#container2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#experience{
+  margin:auto;
+  margin-left: 20px;
+  padding:10px;
+} 
+#container2 h2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  border-bottom: solid;
+  border-color:#74B3CE;
+}
+#experience p{
+  line-height: 40px;
+}
+
+#container2 img{
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
