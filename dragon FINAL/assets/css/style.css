@@ -1,0 +1,238 @@
+/*
+363062
+435585
+818FB4
+F5E8C7
+*/
+
+/*  ---------------Box Sizing-----------------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
+
+/*  ---------------Responsive Images-----------------  */
+img{
+    max-width: 100%;
+  
+}
+
+/*  ---------------Background Images-----------------  */
+body{
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+/*  ---------------Utility Styles-----------------  */
+.container {
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+/*  --------------- Global Styles -----------------  */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+header.primary {
+    background-color: #181c1f;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    /* Shorhand T,R,B,L*/
+    padding: 6em 2em;
+    position: relative;
+}
+
+header.primary::before {
+    content: "";
+    background-image: url("/dragon/assets/img/Crew-Dragon-DM-1-orbit-tall-pano-SpaceX-crop-3.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+header.primary h1 {
+    font-size: 3.2rem;
+    margin: 20px 0;
+    position: relative;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    background-image: url("https://assets.codepen.io/7248/logo-2.png");
+    display: block;
+    width: 460px;
+    height: 70px;
+    margin: 0 auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+header.primary h2 {
+  font-family: "Goldman", cursive;
+  font-size: 2em;
+  margin: 20px auto 40px;
+  position: relative;
+}
+
+header.primary nav{
+    max-width:960px;
+    margin: 20px auto;
+}
+
+header.primary nav ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+}
+
+header.primary nav a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#000000;
+    background-color: rgba(0,0,0,.4);
+    padding:8px 16px;
+    border-radius:10px;
+    transition:.5s;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active{
+    background-color: rgba(0,0,0,.8);
+}
+
+#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:20px;
+    border-bottom: 2px solid #c0c0c0;
+    padding-bottom:2.6rem;
+}
+
+#content h2{
+    color:#3b638b;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+#articleTitle{
+    text-align: center;
+    color:#3b638b;
+}
+
+#article{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:20px;
+    border-bottom: 2px solid #c0c0c0;
+    padding-bottom:2.6rem;
+}
+#article h2{
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    color:#3b638b;
+}
+
+#article img{
+    width: 2000px;
+    height:auto;
+}
+
+#article .post{
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    font-size:.8rem;
+    transition:.5s;
+}
+
+#article .post{
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    font-size:.8rem;
+    transition:.5s;
+}
+
+#article .post:hover{
+    box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
+
+#colophon{
+    /*      I did generate this css with https://cssgradient.io/        */
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 8%, rgba(61,9,121,1) 52%, rgba(38,0,255,0.768032212885154) 100%);
+    text-align: center;
+}
+
+#colophon a{
+    text-decoration: none;
+    color:#fff;
+    transition:.5s;
+}
+#colophon a:hover{
+    color:#3b638b;
+}
+#colophon h6 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+table{
+    width:100%;
+    border:2px solid #3b638b;
+    margin:20px 0;
+    border-collapse:collapse;
+}
+  
+table caption{
+    font-weight:bold;
+    margin:10px;
+}
+  
+table tr:nth-child(even){
+    background-color: rgba(0,0,0,.1);
+}
+  
+table th{
+    background-color:#172635;
+    color:white;
+    padding:10px;
+}
+  
+table td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+    
+}
+
+#questions h2{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
